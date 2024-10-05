@@ -33,6 +33,7 @@ export default function App() {
                 }}
             />
             <button onClick={handleSearchClick}>Search</button>
-            <h4>Definition: {defination}</h4>
+            <h4>Definition:</h4>
+            <p>{defination}</p>
         </div>);
 }
