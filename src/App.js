@@ -26,12 +26,13 @@ export default function App() {
             <h1>Dictionary App</h1>
             <input
                 placeholder="Search for a word..."
+                type="text"
                 value={inText}
                 onChange={(e) => {
                     setInText(e.target.value)
                 }}
             />
             <button onClick={handleSearchClick}>Search</button>
-            <h4>Defination: {defination}</h4>
+            <h4>Definition: {defination}</h4>
         </div>);
 }
